@@ -95,7 +95,7 @@ export default {
       this.currentPartner = false
     },
     back() {
-      this.$router.back();
+      this.$router.back()
     }
   },
   components: {
