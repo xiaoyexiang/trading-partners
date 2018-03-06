@@ -128,7 +128,7 @@ export default {
     align-items: center
     justify-content: center
     padding: 30px
-    background: #fff url(57b28a388991b_610.jpg) center center no-repeat
+    background: #fff url(./info-bg.jpg) center center no-repeat
     -webkit-background-size: cover
     background-size: cover
     .avatar-zone {

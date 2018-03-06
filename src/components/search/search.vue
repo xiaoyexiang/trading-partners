@@ -20,7 +20,7 @@
 
 <script type="text/ecmascript-6">
 import PartnerList from 'base/partner-list/partner-list'
-// import PartnerDetail from 'components/partner-detail/partner-detail'
+import {getUserInfo} from 'api/partners'
 
 export default {
   name: 'Search',
@@ -28,6 +28,11 @@ export default {
     return {
       keyword: '叶子'
     }
+  },
+  created() {
+    getUserInfo(1).then((res) => {
+      console.log(res)
+    })
   },
   methods: {
     selectPartner(item) {

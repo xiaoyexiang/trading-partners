@@ -111,6 +111,7 @@ export default {
         }
       }
       .bottom {
+        height: $font-size-medium * 1.3 *2
         font-size: $font-size-medium
         line-height: 1.3
         multi-line(2)
