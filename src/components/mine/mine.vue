@@ -30,16 +30,16 @@
           <h5 class="fli-text">个人资料</h5>
         </li>
         <li class="item">
-          <i class="icon iconfont icon-wodejuhuasuan"></i>
-          <h5 class="fli-text">个人资料</h5>
+          <i class="icon iconfont icon-jushoucang"></i>
+          <h5 class="fli-text">我的收藏</h5>
         </li>
         <li class="item">
-          <i class="icon iconfont icon-wodejuhuasuan"></i>
-          <h5 class="fli-text">个人资料</h5>
+          <i class="icon iconfont icon-quanzi"></i>
+          <h5 class="fli-text">我的圈子</h5>
         </li>
         <li class="item">
-          <i class="icon iconfont icon-wodejuhuasuan"></i>
-          <h5 class="fli-text">个人资料</h5>
+          <i class="icon iconfont icon-weibiaoti5"></i>
+          <h5 class="fli-text">敬请期待</h5>
         </li>
       </ul>
     </section>
@@ -210,13 +210,13 @@ export default {}
           justify-content: center
           width: 30px
           height: 30px
-          font-size: $font-size-large
+          font-size: $font-size-large-x
         }
         .fli-text {
           display: block
           margin: 5px 10px 0
           font-size: $font-size-medium
-          color: $color-text-d
+          color: $color-text-ll
         }
       }
     }
